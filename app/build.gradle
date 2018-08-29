@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.2'
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "id.zelory.compressor.sample"
@@ -26,4 +26,5 @@ dependencies {
     compile 'id.zelory:compressor:2.1.0'
     //compile project(':compressor')
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'id.zelory:compressor:2.1.0'
 }
